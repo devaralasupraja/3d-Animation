@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    width: 98vw;
+    background-color: rgba(255, 68, 0, 0.63);
+}
+
+
+#images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 75px;
+
+}
+
+img:nth-child(1){
+    margin-right:-30px ;
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotateY(30deg);
+}
+
+img:nth-child(2){
+    margin-right:-30px ;
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotateY(30deg);
+}
+
+
+img:nth-child(3){
+    z-index: -1;
+}
+
+img:nth-child(4){
+    margin-left: -30px;
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotateY(-30deg);
+}
+
+
+img:nth-child(5){
+    margin-left:-30px ;
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotateY(-30deg);
+}
+
